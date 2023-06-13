@@ -40,4 +40,10 @@ public class ContaCorrente {
         this.correntista = correntista;
         this.saldo = 0.0;
     }
+
+    public ContaCorrente(Integer contaCorrente, String correntista, Double saldo) {
+        this.contaCorrente = contaCorrente;
+        this.correntista = correntista;
+        this.saldo = saldo;
+    }
 }

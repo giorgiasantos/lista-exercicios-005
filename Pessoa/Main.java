@@ -14,6 +14,9 @@ public class Main {
         pessoa.envelhecer();
         pessoa.mostrarDados();
 
+        Pessoa pessoa2 = new Pessoa("Fulano", 23, 1.79, 70.0);
+        pessoa2.mostrarDados();
+
 
 
 

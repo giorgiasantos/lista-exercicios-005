@@ -19,6 +19,13 @@ public class Carro {
         this.marca = marca;
         this.potencia = 2.0;
     }
+
+    public Carro(Integer qtdePortas, String modelo, String marca, Double potencia) {
+        this.qtdePortas = qtdePortas;
+        this.modelo = modelo;
+        this.marca = marca;
+        this.potencia = potencia;
+    }
 }
 
 

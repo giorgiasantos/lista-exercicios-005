@@ -72,4 +72,12 @@ public class Pessoa {
         peso = 0.0;
 
     }
+
+    public Pessoa(String nome, Integer idade, Double altura, Double peso)
+    {
+        this.nome = nome;
+        this.idade = idade;
+        this.altura = altura;
+        this.peso = peso;
+    }
 }

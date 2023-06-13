@@ -7,5 +7,11 @@ public class Main {
         carro.ligarCarro();
         carro.desligarCarro();
 
+        Carro carro2 = new Carro(2, "Uno", "Chevrolet", 75.0);
+
+        carro2.ligarCarro();
+        carro2.desligarCarro();
+
+
     }
 }
